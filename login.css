@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+  
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(14, 14, 216, 0.896);
+    display: flex;
+
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.logo  i{
+    color: beige;
+    font-size: 30px;
+}
+.logo h2{
+    color: white;
+    font-size: 30px;
+}
+nav .link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+      
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    color: white;
+}
+.login{
+    width: 100%;
+    height: 600px;
+    background-image: url(Gemini_Generated_Image_90ilke90ilke90il.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login .loginform{
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+
+    
+  
+}
+.login .loginform .logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.login .loginform .logo i{
+    font-size: 35px;
+    color: rgb(9, 124, 225);
+}
+.login .loginform .logo p{
+    font-size: 20px;
+    color: rgba(24, 84, 204, 0.851);
+}
+
+
+.login .loginform .pp{
+    color: gray;
+    font-size: 20px;
+  
+}
+
+.login .loginform form{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    
+}
+.login .loginform form  input{
+ width: 400px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0px 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+::placeholder{
+    color: gray;
+}
+.login .loginform form button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: rgb(24, 73, 158);
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.login .loginform .text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.login .loginform .text a{
+    text-decoration: none;
+    color: rgb(8, 103, 205);
+}
+.login .loginform .text p{
+    color: gray;
+}

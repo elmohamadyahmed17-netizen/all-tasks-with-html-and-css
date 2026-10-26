@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(14, 14, 216, 0.896);
+    display: flex;
+
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.logo  i{
+    color: beige;
+    font-size: 30px;
+}
+.logo h2{
+    color: white;
+    font-size: 30px;
+}
+nav .link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+      
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    color: white;
+}
+.img{
+    width: 100%;
+    height: 120px;
+    background-image: url(Gemini_Generated_Image_1w4b681w4b681w4b.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.img .text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+     
+}
+.img .text h2{
+    color: white;
+    font-size: 30px;
+}
+.img .text p{
+    color: white;
+    font-size: 20px;
+}
+.project{
+    width: 100%;
+    height: 400px;
+    
+}
+
+.project .cards{
+    width: 100%;
+    height: 400px;
+ margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    gap: 50px;
+}
+.project .cards .card{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px gray;
+
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding: 20px;
+    transition: all 2s;
+}
+.project h2{
+    margin-top: 20px;
+    padding: 10px;
+}
+.project .cards .card:hover{
+    scale: 1.05;
+     box-shadow: 5px 5px 50px 10px black;
+   transform:rotate(45deg)
+}
+.project .cards .card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}

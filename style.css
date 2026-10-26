@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(14, 14, 216, 0.896);
+    display: flex;
+
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.logo  i{
+    color: beige;
+    font-size: 30px;
+}
+.logo h2{
+    color: white;
+    font-size: 30px;
+}
+nav .link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+      
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    color: white;
+}
+.img{
+    width: 100%;
+    height: 400px;
+    background-image: url(Gemini_Generated_Image_n05ds2n05ds2n05d.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+   background-size: contain;
+   object-fit: cover;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+
+
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+   
+
+}
+.text h3{
+    color: white;
+    font-size: 50px;
+}
+.text h1{
+    font-size: 60px;
+    color: rgb(9, 212, 234);
+}
+.text ul{
+    font-size: 20px;
+    color: white;
+}
+.btns{
+    display: flex;
+    gap: 10px;
+  align-items: center;
+  margin-right: 80px;
+}
+.btns button{
+    width: 250px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color:  rgb(6, 80, 229);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    gap: 20px;
+    font-size: 17px;
+ 
+ 
+}
+.to{
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+}
+.to .cards{
+    width: 100%;
+    height: 100%;
+    
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+.to .cards .card{
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 10px rgba(128, 128, 128, 0.842);
+    border-radius: 20px;
+    transition: all 2s;
+    
+}
+.to .cards .card:hover{
+    scale: 1.05;
+    transform: translateY(-50%);
+}
+.to .cards .card span{
+    width: 70px;
+    height: 70px;
+    border-radius:50% ;
+    background-color: rgb(12, 61, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.to .cards .card .ico{
+    display: flex;
+    gap: 20px;
+}
+.to .cards .card .ico a{
+    text-decoration: none;
+    color: rgb(16, 60, 218);
+}
+.to .cards .card .ico i{
+    color:  rgb(16, 60, 218);
+    display: flex;
+    align-items: center;
+
+}
+    
+
+.to .cards .card .sp{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.to .cards .card .sp span{
+    font-size: 30px;
+    color: white;
+}
